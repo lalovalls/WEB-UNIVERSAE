@@ -1,0 +1,16 @@
+.container {
+    margin: 20px;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.imagenes {
+    border-collapse: collapse;
+}
+.container td {
+    padding: 20px;
+}
+.container img {
+    cursor: pointer;
+}
