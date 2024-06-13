@@ -33,6 +33,10 @@ margin: 0 5px;
 color: white;
 text-decoration: none;
 }
+.redes-sociales a i:hover{
+    transform: scale(1.1);
+    color: #3f7abc;
+}
 .container {
     margin: 20px;
     margin-top: 70px;
@@ -40,8 +44,8 @@ text-decoration: none;
     align-items: center;
     display: none;
 }
-.imagenes {
-    border-collapse: collapse;
+.imagenes img:hover{
+    transform: scale(1.1);
 }
 .container td {
     padding: 20px;
