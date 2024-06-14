@@ -15,10 +15,11 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    position: fixed; 
+    height: 8%; 
     width: 100%;
     bottom: 0;
     left: 0;
+    position: fixed;
     z-index: 1000;
     box-sizing: border-box;
 }
@@ -44,17 +45,56 @@ body {
 }
 .container {
     margin: 20px;
-    margin-top: 70px;
+    margin-top: 390px;
     justify-content: center;
     align-items: center;
     display: none;
 }
-.imagenes img:hover{
-    transform: scale(1.1);
-}
 .container td {
     padding: 20px;
 }
+.imagenes-button{
+    position: fixed;
+}
 .container img {
     cursor: pointer;
+}
+.imagenes-button img:hover{
+    transform: scale(1.1);
+}
+/*estilos simulador0*/
+.carrusel {
+    position: relative;
+    margin: 50px auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-simulador0 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.texto {
+    margin-right: 700px;
+}
+.texto h1{
+    font-size: 40px;
+    text-align: left;
+}
+.texto p{
+    font-size: 20px;
+}
+
+.tabla-imagenes {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+}
+
+.tabla-imagenes img {
+    width: 500px;
+    margin-bottom: 10px;
 }
