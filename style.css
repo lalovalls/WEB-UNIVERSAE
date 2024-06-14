@@ -87,7 +87,7 @@ body {
     margin: auto;
     padding: 0;
     width: 80%;
-    max-width: 700px;
+    max-width: 1000px;
     top: 15%;
 }
 
@@ -114,13 +114,15 @@ body {
     user-select: none;
 }
 .prev {
-    left: 1.5%;
-    border-radius: 3px 0 0 3px;
+    left: -30px;
+    border-radius: 30px 0 0 30px;
+    background-color: rgb(85, 87, 90);
 }
 
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+    right: -40px;
+    border-radius: 0px 30px 30px 0px;
+    background-color: rgb(85, 87, 90);
 }
 
 .prev:hover, .next:hover {
@@ -152,5 +154,6 @@ body {
 
 .tabla-imagenes img {
     width: 500px;
+    cursor: pointer;
     margin-bottom: 10px;
 }
