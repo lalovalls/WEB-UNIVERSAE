@@ -8,19 +8,12 @@ let slideIndex = 0;
 const slides = document.querySelectorAll('.popup-slides img');
 const popup = document.getElementById('popupCarrusel');
 const openPopup = document.getElementById('openPopup');
-const closePopup = document.querySelector('.close');
 
 // Mostrar pop-up
 openPopup.onclick = function() {
     popup.style.display = 'block';
     showSlides(slideIndex);
 }
-
-// Cerrar pop-up
-closePopup.onclick = function() {
-    popup.style.display = 'none';
-}
-
 // Cambiar slides
 function changeSlide(n) {
     slideIndex += n;

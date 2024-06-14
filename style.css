@@ -99,24 +99,6 @@ body {
 .popup-slides img.active {
     display: block;
 }
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #fff;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 .prev, .next {
     cursor: pointer;
     position: absolute;
