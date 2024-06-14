@@ -15,7 +15,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    position: fixed;
+    position: fixed; 
     width: 100%;
     bottom: 0;
     left: 0;
@@ -27,14 +27,19 @@ body {
     padding-top: 100px;
     padding-bottom: 60px; 
 }
-.redes-sociales i {
-font-size: 30px;
-margin: 0 5px;
-color: white;
-text-decoration: none;
+.redes-sociales a i{
+    color: white;
+}
+.redes-sociales a  {
+    font-size: 2em;
+    color: #134C8F;
+    opacity: 0.9;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
 }
 .redes-sociales a i:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     color: #3f7abc;
 }
 .container {
