@@ -135,17 +135,18 @@ body {
     justify-content: space-between; 
     align-items: flex-start;
     margin: 20px;
+    font-family: Raleway;
 }
 
 .texto {
-    margin-right: 700px;
+    margin-right: 400px;
 }
 .texto h1{
-    font-size: 40px;
-    text-align: left;
+    font-size: 25px;
+    
 }
 .texto p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .tabla-imagenes {
