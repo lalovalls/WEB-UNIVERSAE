@@ -10,6 +10,7 @@ header {
     z-index: 1000;
     box-sizing: border-box;
 }
+
 footer {
     background-color: #134C8F;
     color: white;
@@ -23,15 +24,18 @@ footer {
     z-index: 1000;
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding-top: 100px;
     padding-bottom: 60px; 
 }
-.redes-sociales a i{
+
+.redes-sociales a i {
     color: white;
 }
-.redes-sociales a  {
+
+.redes-sociales a {
     font-size: 2em;
     color: #134C8F;
     opacity: 0.9;
@@ -39,29 +43,87 @@ body {
     margin-right: 10px;
     border-radius: 50%;
 }
-.redes-sociales a i:hover{
+
+.redes-sociales a i:hover {
     transform: scale(1.2);
     color: #3f7abc;
 }
+
 .container {
     margin: 20px;
-    margin-top: 390px;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
     display: none;
 }
+
 .container td {
     padding: 20px;
 }
-.imagenes-button{
-    position: fixed;
+
+.imagenes-button {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-items: center;
 }
+
 .container img {
     cursor: pointer;
 }
-.imagenes-button img:hover{
+
+.imagenes-button img:hover {
     transform: scale(1.1);
 }
+.tabla-imagenes {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+}
+
+.tabla-imagenes img {
+    width: 500px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 20px;
+    }
+
+    footer {
+        padding: 10px;
+        height: auto;
+    }
+    .imagenes-button {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .texto {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .texto h1 {
+        font-size: 20px;
+    }
+
+    .texto p {
+        font-size: 16px;
+    }
+
+    .tabla-imagenes img {
+        width: 100%;
+    }
+
+    .redes-sociales a {
+        font-size: 1.5em;
+        margin: 5px;
+    }
+}
+
 .carrusel {
     position: relative;
     margin: 50px auto; 
@@ -69,6 +131,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .popup-carrusel {
     display: none;
     position: fixed;
@@ -99,6 +162,7 @@ body {
 .popup-slides img.active {
     display: block;
 }
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -113,6 +177,7 @@ body {
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
+
 .prev {
     left: -30px;
     width: 2%;
@@ -130,6 +195,7 @@ body {
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
+
 .container-simulador0 {
     display: flex;
     justify-content: space-between; 
@@ -141,22 +207,12 @@ body {
 .texto {
     margin-right: 400px;
 }
-.texto h1{
+
+.texto h1 {
     font-size: 25px;
-    
 }
-.texto p{
+
+.texto p {
     font-size: 18px;
 }
 
-.tabla-imagenes {
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-end; 
-}
-
-.tabla-imagenes img {
-    width: 500px;
-    cursor: pointer;
-    margin-bottom: 10px;
-}
