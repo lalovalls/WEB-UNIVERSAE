@@ -28,7 +28,8 @@ footer {
 body {
     margin: 0;
     padding-top: 100px;
-    padding-bottom: 60px; 
+    padding-bottom: 60px;
+    background-color: #B6E1F9; 
 }
 
 .redes-sociales a i {
